@@ -1,8 +1,8 @@
 export const Header = () => {
     return (
         <>
-            <header className="container mx-auto min-w-screen max-h-20 mt-5">
-                <nav className="flex justify-between px-10 text-base">
+            <header className="container mx-auto w-5/6 max-h-20 mt-5">
+                <nav className="flex justify-between px-10 text-semibold">
                     <div className="logo">
                         <img
                             src="/logo-react.svg"
