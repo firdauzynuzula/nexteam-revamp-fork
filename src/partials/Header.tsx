@@ -1,3 +1,4 @@
+import briyani from '../assets/biryani.png'
 export const Header = () => {
     return (
         <>
@@ -33,7 +34,7 @@ export const Header = () => {
                     {/* image section */}
                     <div className="p-5 order-2">
                         <img
-                            src="/src/assets/biryani.png"
+                            src={briyani}
                             alt="nasi-briyani"
                             className="max-h-[300px] bg-cover"
                         />
